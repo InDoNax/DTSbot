@@ -2,7 +2,7 @@ import random
 #import discord
 #import os
 from discord.ext.commands import Bot
-
+from config import maintoken
 
 
 client = Bot(command_prefix="!")
