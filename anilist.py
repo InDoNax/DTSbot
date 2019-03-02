@@ -6,7 +6,7 @@ from config import variables
 query = '''
 query  {
 Page {
-    mediaList (userName: "InDoNax", status: CURRENT) {
+    mediaList (userName: $username, status: CURRENT) {
       mediaId
       status
     }
